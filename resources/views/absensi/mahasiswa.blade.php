@@ -45,7 +45,7 @@
                                     {{ $mhs->rfid_uid }}
                                 </code>
                             </td>
-                            <td>{{ $mhs->email }} {{ $mhs->is_active }}</td>
+                            <td>{{ $mhs->email }}</td>
                             <td>
                                 <span class="badge {{ $mhs->is_active == '1' ? 'badge-green' : 'badge-gray' }}">
                                     {{ $aktif }}
